@@ -1,0 +1,7 @@
+{
+  "name": "Angus Burger Wembley",
+  "description": "A high-energy, modern fast-casual restaurant website for Wembley's favorite burger and kebab spot, featuring a Gemini-powered menu assistant.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
