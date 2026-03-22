@@ -18,6 +18,14 @@ export default defineConfig(({ mode }) => {
         alias: {
           '@': path.resolve(__dirname, '.'),
         }
-      }
+      },
+      build: {
+        rollupOptions: {
+          input: {
+            main: path.resolve(__dirname, 'index.html'),
+            'best-burgers-wembley': path.resolve(__dirname, 'best-burgers-wembley/index.html'),
+          },
+        },
+      },
     };
 });

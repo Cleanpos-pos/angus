@@ -82,6 +82,9 @@ const Navbar: React.FC = () => {
             </a>
           ))}
           <div className="flex items-center gap-6 ml-4">
+            <a href="/best-burgers-wembley/" className="text-white hover:text-orange-500 transition-colors py-2 border-b border-transparent hover:border-orange-500">
+              Blog
+            </a>
             <a href={BOOK_LINK} target="_blank" rel="noopener noreferrer" className="text-white hover:text-orange-500 transition-colors py-2 border-b border-transparent hover:border-orange-500">
               Book a Table
             </a>
@@ -114,6 +117,12 @@ const Navbar: React.FC = () => {
             {link.label}
           </a>
         ))}
+        <a
+          href="/best-burgers-wembley/"
+          className="text-2xl font-black uppercase transition-colors tracking-widest text-white hover:text-orange-500"
+        >
+          Blog
+        </a>
         <div className="flex flex-col gap-4 pt-4 border-t border-neutral-800">
           <a href={BOOK_LINK} target="_blank" rel="noopener noreferrer" className="text-white border border-white/20 text-center py-4 rounded-2xl text-lg font-black uppercase tracking-widest">
             Book a Table

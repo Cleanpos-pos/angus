@@ -42,6 +42,7 @@ const Footer: React.FC<FooterProps> = ({ onLegalClick }) => {
               <li><a href="#about" className="hover:text-orange-500 transition-colors">Brand Story</a></li>
               <li><a href="#offers" className="hover:text-orange-500 transition-colors">Special Offers</a></li>
               <li><a href="#location" className="hover:text-orange-500 transition-colors">Find Us</a></li>
+              <li><a href="/best-burgers-wembley/" className="hover:text-orange-500 transition-colors">Blog</a></li>
             </ul>
           </div>
           <div>
