@@ -3,9 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Takeaways Near Me in Wembley | Angus Burger</title>
-  <meta name="description" content="Looking for takeaways near me in Wembley? Angus Burger offers fast collection and delivery of charcoal-grilled burgers, kebabs, gyros and more. 100% halal, open 7 days a week near Wembley Stadium.">
-  <meta name="keywords" content="Takeaways near me, takeaway Wembley, food delivery Wembley, halal takeaway Wembley, burger delivery Wembley, kebab delivery Wembley, Angus Burger takeaway">
+  <title>Takeaways Near Me in Wembley 2026: Best Takeaway Food | Angus Burger</title>
+  <meta name="description" content="Looking for takeaways near me in Wembley? Angus Burger offers fast collection and delivery of charcoal-grilled burgers, kebabs, gyros and more. 100% halal, open 7 days. Order now!">
+  <meta name="keywords" content="Takeaways near me, takeaway Wembley, food delivery Wembley, halal takeaway Wembley, burger delivery Wembley, kebab delivery Wembley, best takeaway Wembley, Angus Burger takeaway">
+  <link rel="canonical" href="https://burgers-kebabs-gyros.co.uk/takeaways-near-me/" />
+  <!-- Open Graph -->
+  <meta property="og:title" content="Takeaways Near Me in Wembley 2026: Best Takeaway Food">
+  <meta property="og:description" content="Fast collection and delivery of charcoal-grilled burgers, kebabs and gyros. 100% halal, open 7 days a week near Wembley Stadium.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://burgers-kebabs-gyros.co.uk/takeaways-near-me/">
+  <meta property="og:locale" content="en_GB">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Takeaways Near Me in Wembley 2026: Best Takeaway Food">
+  <meta name="twitter:description" content="Fast collection and delivery of charcoal-grilled burgers, kebabs and gyros. 100% halal, near Wembley Stadium.">
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Oswald:wght@500;700&display=swap" rel="stylesheet">
   <style>
@@ -16,11 +27,13 @@
     ::-webkit-scrollbar-thumb { background: #EA580C; border-radius: 10px; }
     ::-webkit-scrollbar-thumb:hover { background: #f97316; }
   </style>
+  <!-- LocalBusiness + ItemList Schema -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Restaurant",
     "name": "Angus Burger",
+    "image": "https://burgers-kebabs-gyros.co.uk/images/restaurant-exterior.jpg",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "7 Park Lane",
@@ -29,12 +42,67 @@
       "postalCode": "HA9 7RW",
       "addressCountry": "UK"
     },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 51.5560,
+      "longitude": -0.2795
+    },
     "telephone": "+44 20 8900 9988",
     "priceRange": "££",
     "servesCuisine": ["American", "Burgers", "Kebabs", "Gyros", "Halal"],
     "openingHours": ["Mo-Su 12:00-23:00"],
     "hasDeliveryMethod": "http://schema.org/DeliveryModeOwnFleet",
-    "url": "https://yourdomain.com/takeaways-near-me"
+    "url": "https://burgers-kebabs-gyros.co.uk/takeaways-near-me/",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "420"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Takeaway Menu at Angus Burger Wembley",
+    "description": "Our top takeaway categories available for collection and delivery",
+    "numberOfItems": 4,
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Charcoal-Grilled Burgers",
+        "description": "Hand-pressed patties from grain-fed Scottish beef, cooked over charcoal. Classic, double and vegan options."
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Kebabs & Wraps",
+        "description": "Shish, doner, kofte and adana kebabs charcoal-grilled. Wraps, boxes and sharing platters available."
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Gyros",
+        "description": "Slow-roasted chicken and lamb carved from the spit, wrapped in fresh pita with tzatziki."
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Sides & Shakes",
+        "description": "Hand-cut chips, loaded fries, onion rings, mac & cheese croquettes and thick milkshakes."
+      }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://burgers-kebabs-gyros.co.uk/" },
+      { "@type": "ListItem", "position": 2, "name": "Takeaways Near Me", "item": "https://burgers-kebabs-gyros.co.uk/takeaways-near-me/" }
+    ]
   }
   </script>
 </head>
@@ -64,14 +132,35 @@
     </div>
   </nav>
 
+  <!-- Breadcrumbs -->
+  <div class="pt-20 px-4 bg-neutral-900">
+    <div class="max-w-4xl mx-auto">
+      <nav aria-label="Breadcrumb" class="text-sm text-neutral-500">
+        <ol class="flex items-center gap-2">
+          <li><a href="/" class="hover:text-orange-500 transition-colors">Home</a></li>
+          <li>/</li>
+          <li class="text-orange-500">Takeaways Near Me</li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+
   <!-- Hero -->
-  <header class="pt-28 pb-16 px-4 bg-gradient-to-b from-neutral-900 to-neutral-950">
+  <header class="pt-8 pb-16 px-4 bg-gradient-to-b from-neutral-900 to-neutral-950">
     <div class="max-w-4xl mx-auto text-center">
-      <p class="text-orange-500 font-bold uppercase tracking-[0.3em] text-sm mb-4">Angus Burger Blog</p>
+      <p class="text-orange-500 font-bold uppercase tracking-[0.3em] text-sm mb-4">Angus Burger &bull; Wembley Food Guide</p>
       <h1 class="text-4xl md:text-6xl font-black tracking-tight leading-tight mb-6">
-        Takeaways <span class="text-orange-600">Near Me</span> in Wembley
+        Takeaways <span class="text-orange-600">Near Me</span> in Wembley 2026
       </h1>
       <p class="text-neutral-400 text-lg max-w-2xl mx-auto">Fast collection and delivery of charcoal-grilled burgers, kebabs, gyros and more. 100% halal, open 7 days a week.</p>
+      <div class="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="https://www.restaurantlogin.com/api/fb/gp_jye" target="_blank" rel="noopener noreferrer" class="bg-orange-600 hover:bg-orange-700 text-white font-black uppercase tracking-widest text-sm px-8 py-4 rounded-xl transition-colors">
+          Order Now
+        </a>
+        <a href="tel:+442089009988" class="border-2 border-orange-600 text-orange-500 font-black uppercase tracking-widest text-sm px-8 py-4 rounded-xl hover:bg-orange-600/10 transition-colors">
+          Call to Order
+        </a>
+      </div>
     </div>
   </header>
 
@@ -83,28 +172,54 @@
       <div class="space-y-4 text-neutral-300 leading-relaxed">
         <p>Searching for &ldquo;takeaways near me&rdquo; in Wembley? Look no further. Angus Burger offers fast, fresh and flavour-packed takeaway meals that are ready when you are. From juicy charcoal-grilled burgers to loaded kebab wraps and Greek-style gyros, our menu has something for every craving.</p>
         <p>We're located at 7 Park Lane, just minutes from Wembley Stadium and Wembley Park tube station. Whether you're heading to a match, grabbing dinner on the way home, or ordering from the sofa, we've got you covered with quick collection and delivery options.</p>
+        <p>As one of the <strong>best takeaways near Wembley</strong>, we pride ourselves on cooking everything to order over real charcoal &mdash; no heat lamps, no shortcuts. Just fresh, bold flavours delivered to your door or ready for collection.</p>
       </div>
     </section>
 
+    <!-- Top 4 Takeaway Categories - Listicle -->
     <section class="mb-16">
-      <h2 class="text-2xl md:text-3xl font-black tracking-tight mb-6 border-l-4 border-orange-600 pl-4">What's on the Takeaway Menu</h2>
-      <div class="grid md:grid-cols-2 gap-6">
-        <div class="bg-neutral-900 border border-neutral-800 rounded-2xl p-6 hover:border-orange-600/50 transition-colors">
-          <h3 class="text-xl font-black text-orange-500 mb-2">Charcoal-Grilled Burgers</h3>
-          <p class="text-neutral-400 text-sm">Hand-pressed patties from grain-fed Scottish beef, cooked over charcoal and loaded with your choice of toppings. Classic smash burgers, doubles and vegan options available.</p>
-        </div>
-        <div class="bg-neutral-900 border border-neutral-800 rounded-2xl p-6 hover:border-orange-600/50 transition-colors">
-          <h3 class="text-xl font-black text-orange-500 mb-2">Kebabs &amp; Wraps</h3>
-          <p class="text-neutral-400 text-sm">Shish, doner, kofte and adana kebabs grilled over charcoal. Served in warm flatbread wraps with fresh salad and house sauces, or as boxes with rice and chips.</p>
-        </div>
-        <div class="bg-neutral-900 border border-neutral-800 rounded-2xl p-6 hover:border-orange-600/50 transition-colors">
-          <h3 class="text-xl font-black text-orange-500 mb-2">Gyros</h3>
-          <p class="text-neutral-400 text-sm">Slow-roasted chicken and lamb carved from the spit, wrapped in fresh pita with tzatziki, crisp salad and pickles. Also available as gyro boxes and sharing platters.</p>
-        </div>
-        <div class="bg-neutral-900 border border-neutral-800 rounded-2xl p-6 hover:border-orange-600/50 transition-colors">
-          <h3 class="text-xl font-black text-orange-500 mb-2">Sides &amp; Shakes</h3>
-          <p class="text-neutral-400 text-sm">Hand-cut chips, onion rings, mac &amp; cheese croquettes, loaded fries, thick milkshakes with over ten mix-ins, and soft drinks to complete your order.</p>
-        </div>
+      <h2 class="text-2xl md:text-3xl font-black tracking-tight mb-6 border-l-4 border-orange-600 pl-4">Top 4 Takeaway Categories</h2>
+      <div class="space-y-8">
+        <article class="bg-neutral-900 border border-neutral-800 rounded-2xl p-6 hover:border-orange-600/50 transition-colors">
+          <div class="flex items-start gap-4">
+            <span class="bg-orange-600 text-white font-black text-2xl w-12 h-12 rounded-xl flex items-center justify-center shrink-0">1</span>
+            <div>
+              <h3 class="text-xl font-black text-orange-500 mb-2"><a href="/best-burgers-wembley/" class="hover:text-orange-400 transition-colors">Charcoal-Grilled Burgers</a></h3>
+              <p class="text-neutral-400 text-sm mb-3">Hand-pressed patties from grain-fed Scottish beef, cooked over charcoal and loaded with your choice of toppings. Classic smash burgers, doubles and vegan options available.</p>
+              <p class="text-neutral-500 text-xs uppercase tracking-widest">Most popular: The Wembley Deluxe</p>
+            </div>
+          </div>
+        </article>
+        <article class="bg-neutral-900 border border-neutral-800 rounded-2xl p-6 hover:border-orange-600/50 transition-colors">
+          <div class="flex items-start gap-4">
+            <span class="bg-orange-600 text-white font-black text-2xl w-12 h-12 rounded-xl flex items-center justify-center shrink-0">2</span>
+            <div>
+              <h3 class="text-xl font-black text-orange-500 mb-2"><a href="/best-kebabs-wembley/" class="hover:text-orange-400 transition-colors">Kebabs &amp; Wraps</a></h3>
+              <p class="text-neutral-400 text-sm mb-3">Shish, doner, kofte and adana kebabs grilled over charcoal. Served in warm flatbread wraps with fresh salad and house sauces, or as boxes with rice and chips.</p>
+              <p class="text-neutral-500 text-xs uppercase tracking-widest">Most popular: The Loaded Doner</p>
+            </div>
+          </div>
+        </article>
+        <article class="bg-neutral-900 border border-neutral-800 rounded-2xl p-6 hover:border-orange-600/50 transition-colors">
+          <div class="flex items-start gap-4">
+            <span class="bg-orange-600 text-white font-black text-2xl w-12 h-12 rounded-xl flex items-center justify-center shrink-0">3</span>
+            <div>
+              <h3 class="text-xl font-black text-orange-500 mb-2"><a href="/best-gyros-wembley/" class="hover:text-orange-400 transition-colors">Gyros</a></h3>
+              <p class="text-neutral-400 text-sm mb-3">Slow-roasted chicken and lamb carved from the spit, wrapped in fresh pita with tzatziki, crisp salad and pickles. Also available as gyro boxes and sharing platters.</p>
+              <p class="text-neutral-500 text-xs uppercase tracking-widest">Most popular: Classic Chicken Gyro</p>
+            </div>
+          </div>
+        </article>
+        <article class="bg-neutral-900 border border-neutral-800 rounded-2xl p-6 hover:border-orange-600/50 transition-colors">
+          <div class="flex items-start gap-4">
+            <span class="bg-orange-600 text-white font-black text-2xl w-12 h-12 rounded-xl flex items-center justify-center shrink-0">4</span>
+            <div>
+              <h3 class="text-xl font-black text-orange-500 mb-2">Sides &amp; Shakes</h3>
+              <p class="text-neutral-400 text-sm mb-3">Hand-cut chips, onion rings, mac &amp; cheese croquettes, loaded fries, thick milkshakes with over ten mix-ins, and soft drinks to complete your order.</p>
+              <p class="text-neutral-500 text-xs uppercase tracking-widest">Most popular: Loaded Fries</p>
+            </div>
+          </div>
+        </article>
       </div>
     </section>
 
@@ -150,6 +265,34 @@
       </div>
     </section>
 
+    <!-- FAQ Section -->
+    <section class="mb-16">
+      <h2 class="text-2xl md:text-3xl font-black tracking-tight mb-6 border-l-4 border-orange-600 pl-4">Frequently Asked Questions</h2>
+      <div class="space-y-6">
+        <details class="bg-neutral-900 border border-neutral-800 rounded-2xl p-6 group" open>
+          <summary class="text-orange-500 font-black cursor-pointer">What takeaway food do you serve?</summary>
+          <p class="text-neutral-400 text-sm mt-3">We serve charcoal-grilled <a href="/best-burgers-wembley/" class="text-orange-500 hover:underline">burgers</a>, <a href="/best-kebabs-wembley/" class="text-orange-500 hover:underline">kebabs</a> (shish, doner, kofte, adana), <a href="/best-gyros-wembley/" class="text-orange-500 hover:underline">gyros</a>, plus sides like hand-cut chips, loaded fries and thick milkshakes. All 100% halal.</p>
+        </details>
+        <details class="bg-neutral-900 border border-neutral-800 rounded-2xl p-6 group">
+          <summary class="text-orange-500 font-black cursor-pointer">Do you deliver to my area?</summary>
+          <p class="text-neutral-400 text-sm mt-3">We deliver across Wembley, Wembley Park, Alperton, Sudbury, Tokyngton, Preston, Kingsbury and Harrow. Typical delivery time is 20&ndash;40 minutes.</p>
+        </details>
+        <details class="bg-neutral-900 border border-neutral-800 rounded-2xl p-6 group">
+          <summary class="text-orange-500 font-black cursor-pointer">What are your opening hours?</summary>
+          <p class="text-neutral-400 text-sm mt-3">We're open Monday to Sunday, 12:00 &ndash; 23:00. Collection and delivery are available throughout our opening hours.</p>
+        </details>
+        <details class="bg-neutral-900 border border-neutral-800 rounded-2xl p-6 group">
+          <summary class="text-orange-500 font-black cursor-pointer">Is your food halal?</summary>
+          <p class="text-neutral-400 text-sm mt-3">Yes, all our meats are 100% halal certified. We also offer vegetarian and vegan options including falafel wraps, halloumi gyros and plant-based burgers.</p>
+        </details>
+        <details class="bg-neutral-900 border border-neutral-800 rounded-2xl p-6 group">
+          <summary class="text-orange-500 font-black cursor-pointer">How do I order?</summary>
+          <p class="text-neutral-400 text-sm mt-3">You can order online via our website, call us at <a href="tel:+442089009988" class="text-orange-500 hover:underline">+44 20 8900 9988</a>, walk in, or find us on major delivery platforms.</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- Find Us -->
     <section class="mb-16">
       <h2 class="text-2xl md:text-3xl font-black tracking-tight mb-6 border-l-4 border-orange-600 pl-4">Find Us</h2>
       <div class="space-y-4 text-neutral-300 leading-relaxed">
@@ -157,6 +300,25 @@
         <p><strong>Phone:</strong> <a href="tel:+442089009988" class="text-orange-500 hover:underline">+44 20 8900 9988</a></p>
         <p><strong>Opening hours:</strong> Monday to Sunday, 12:00 &ndash; 23:00</p>
         <p>We're a short walk from Wembley Park station (Metropolitan &amp; Jubilee lines) and Wembley Stadium. Ideal for pre-match meals, post-event takeaway or your regular midweek dinner.</p>
+      </div>
+    </section>
+
+    <!-- Internal Links / Related Pages -->
+    <section class="mb-16">
+      <h2 class="text-2xl md:text-3xl font-black tracking-tight mb-6 border-l-4 border-orange-600 pl-4">Explore Our Menu</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <a href="/best-burgers-wembley/" class="bg-neutral-900 border border-neutral-800 rounded-2xl p-6 hover:border-orange-600/50 transition-colors block group">
+          <h3 class="text-lg font-black text-orange-500 mb-2 group-hover:text-orange-400">Best Burgers in Wembley</h3>
+          <p class="text-neutral-400 text-sm">Hand-pressed, charcoal-grilled burgers with premium Scottish beef. See our full burger menu.</p>
+        </a>
+        <a href="/best-kebabs-wembley/" class="bg-neutral-900 border border-neutral-800 rounded-2xl p-6 hover:border-orange-600/50 transition-colors block group">
+          <h3 class="text-lg font-black text-orange-500 mb-2 group-hover:text-orange-400">Best Kebabs in Wembley</h3>
+          <p class="text-neutral-400 text-sm">Charcoal-grilled shish, doner, kofte and adana kebabs. See our full kebab menu.</p>
+        </a>
+        <a href="/best-gyros-wembley/" class="bg-neutral-900 border border-neutral-800 rounded-2xl p-6 hover:border-orange-600/50 transition-colors block group">
+          <h3 class="text-lg font-black text-orange-500 mb-2 group-hover:text-orange-400">Best Gyros in Wembley</h3>
+          <p class="text-neutral-400 text-sm">Authentic Greek-style gyros carved fresh from the spit. Chicken, lamb and veggie options.</p>
+        </a>
       </div>
     </section>
 
@@ -178,14 +340,37 @@
 
   <!-- Footer -->
   <footer class="bg-black text-neutral-500 py-12 border-t border-neutral-900">
-    <div class="max-w-4xl mx-auto px-4 text-center">
-      <div class="flex items-center justify-center gap-2 mb-4">
-        <div class="bg-orange-600 text-white p-1 rounded">
-          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 13.87A4 4 0 0 1 7.41 6a5.11 5.11 0 0 1 1.05-1.54 5 5 0 0 1 7.08 0 5.11 5.11 0 0 1 1.05 1.54 4 4 0 0 1 1.41 7.87L12 21Z"/><path d="M12 11h.01"/><path d="M12 7h.01"/><path d="M12 15h.01"/></svg>
+    <div class="max-w-4xl mx-auto px-4">
+      <div class="grid md:grid-cols-3 gap-8 mb-8">
+        <div>
+          <div class="flex items-center gap-2 mb-4">
+            <div class="bg-orange-600 text-white p-1 rounded">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 13.87A4 4 0 0 1 7.41 6a5.11 5.11 0 0 1 1.05-1.54 5 5 0 0 1 7.08 0 5.11 5.11 0 0 1 1.05 1.54 4 4 0 0 1 1.41 7.87L12 21Z"/><path d="M12 11h.01"/><path d="M12 7h.01"/><path d="M12 15h.01"/></svg>
+            </div>
+            <span class="text-lg font-black tracking-tighter text-white oswald">ANGUS <span class="text-orange-600">BURGER</span></span>
+          </div>
+          <p class="text-sm">7 Park Lane, Wembley, London HA9 7RW</p>
+          <p class="text-sm mt-1"><a href="tel:+442089009988" class="hover:text-orange-500 transition-colors">+44 20 8900 9988</a></p>
         </div>
-        <span class="text-lg font-black tracking-tighter text-white oswald">ANGUS <span class="text-orange-600">BURGER</span></span>
+        <div>
+          <h4 class="text-white font-bold uppercase text-xs tracking-widest mb-4">Explore</h4>
+          <ul class="space-y-2 text-sm">
+            <li><a href="/" class="hover:text-orange-500 transition-colors">Home</a></li>
+            <li><a href="/best-burgers-wembley/" class="hover:text-orange-500 transition-colors">Best Burgers in Wembley</a></li>
+            <li><a href="/best-kebabs-wembley/" class="hover:text-orange-500 transition-colors">Best Kebabs in Wembley</a></li>
+            <li><a href="/best-gyros-wembley/" class="hover:text-orange-500 transition-colors">Best Gyros in Wembley</a></li>
+            <li><a href="/takeaways-near-me/" class="text-orange-500">Takeaways Near Me</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-white font-bold uppercase text-xs tracking-widest mb-4">Opening Hours</h4>
+          <p class="text-sm">Monday &ndash; Sunday</p>
+          <p class="text-sm text-white font-bold">12:00 &ndash; 23:00</p>
+        </div>
       </div>
-      <p class="text-xs uppercase tracking-widest">Copyright &copy; 2026 Angus Burgers Wembley. All Rights Reserved.</p>
+      <div class="border-t border-neutral-800 pt-6 text-center">
+        <p class="text-xs uppercase tracking-widest">Copyright &copy; 2026 Angus Burgers Wembley. All Rights Reserved.</p>
+      </div>
     </div>
   </footer>
 
