@@ -42,7 +42,10 @@ const Footer: React.FC<FooterProps> = ({ onLegalClick }) => {
               <li><a href="#about" className="hover:text-orange-500 transition-colors">Brand Story</a></li>
               <li><a href="#offers" className="hover:text-orange-500 transition-colors">Special Offers</a></li>
               <li><a href="#location" className="hover:text-orange-500 transition-colors">Find Us</a></li>
-              <li><a href="/best-burgers-wembley/" className="hover:text-orange-500 transition-colors">Blog</a></li>
+              <li><a href="/best-burgers-wembley/" className="hover:text-orange-500 transition-colors">Best Burgers</a></li>
+              <li><a href="/best-kebabs-wembley/" className="hover:text-orange-500 transition-colors">Best Kebabs</a></li>
+              <li><a href="/best-gyros-wembley/" className="hover:text-orange-500 transition-colors">Best Gyros</a></li>
+              <li><a href="/takeaways-near-me/" className="hover:text-orange-500 transition-colors">Takeaways Near Me</a></li>
             </ul>
           </div>
           <div>

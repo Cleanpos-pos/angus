@@ -24,6 +24,9 @@ export default defineConfig(({ mode }) => {
           input: {
             main: path.resolve(__dirname, 'index.html'),
             'best-burgers-wembley': path.resolve(__dirname, 'best-burgers-wembley/index.html'),
+            'best-kebabs-wembley': path.resolve(__dirname, 'best-kebabs-wembley/index.html'),
+            'best-gyros-wembley': path.resolve(__dirname, 'best-gyros-wembley/index.html'),
+            'takeaways-near-me': path.resolve(__dirname, 'takeaways-near-me/index.html'),
           },
         },
       },
