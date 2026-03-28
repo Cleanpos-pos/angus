@@ -1,0 +1,24 @@
+# Angus Burger - robots.txt
+User-agent: *
+Allow: /
+Disallow: /node_modules/
+Disallow: /icons/
+
+# Sitemap
+Sitemap: https://burgers-kebabs-gyros.co.uk/sitemap.xml
+
+# AI Crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
