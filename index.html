@@ -170,7 +170,47 @@
 </head>
 
 <body class="bg-white text-neutral-900 overflow-x-hidden">
-    <div id="root"></div>
+    <div id="root">
+      <!-- Static SEO content: visible to crawlers before React hydrates -->
+      <header style="background:#171717;color:#fff;padding:60px 20px;text-align:center">
+        <p style="color:#EA580C;font-weight:bold;text-transform:uppercase;letter-spacing:0.2em;font-size:12px">Best in Wembley</p>
+        <h1 style="font-family:'Oswald',sans-serif;font-size:3em;margin:16px 0;text-transform:uppercase;letter-spacing:-0.02em">
+          Angus <span style="color:#EA580C">Burgers</span> Wembley
+        </h1>
+        <p style="color:#d4d4d4;font-size:1.2em;max-width:600px;margin:0 auto">
+          100% Fresh Meat. Charcoal-Grilled Kebabs. The heart of Wembley's late-night food scene.
+        </p>
+        <div style="margin-top:24px">
+          <a href="https://www.restaurantlogin.com/api/fb/gp_jye" style="background:#EA580C;color:#fff;padding:16px 32px;border-radius:12px;text-decoration:none;font-weight:bold;text-transform:uppercase;letter-spacing:0.1em;display:inline-block">Order for Delivery</a>
+        </div>
+      </header>
+      <main style="max-width:800px;margin:0 auto;padding:40px 20px;color:#333">
+        <section>
+          <h2 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:2em">Redefining the Burger</h2>
+          <p>At Angus Burger, we are committed to providing the best food experience in your own home or on the go. We don't just do fast food; we do fresh food.</p>
+          <p>From our signature 100% Aberdeen Angus patties to our flame-grilled peri peri chicken, every bite is crafted for quality. Our kitchen is the heart of Wembley, where tradition meets modern urban taste.</p>
+        </section>
+        <section style="margin-top:32px">
+          <h2 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:2em">Our Menu</h2>
+          <ul>
+            <li><strong>Classic Angus</strong> &ndash; 4oz Beef, cheddar cheese, lettuce, onion, Mayo &ndash; from &pound;5.99</li>
+            <li><strong>Red Angus</strong> &ndash; 4oz Beef, cheddar cheese, jalapenos, burger sauce &amp; ghost chilli sauce &ndash; from &pound;5.99</li>
+            <li><strong>Classic Chicken</strong> &ndash; Lettuce &amp; Mayo &ndash; from &pound;5.99</li>
+            <li><strong>Chicken Angus</strong> &ndash; Cheddar cheese, lettuce, home-made burger sauce &ndash; from &pound;5.99</li>
+            <li><strong>Classic Veg</strong> &ndash; Veg Patty, lettuce, tomato, red onion, mayo &ndash; &pound;5.99</li>
+          </ul>
+          <p style="margin-top:16px">Plus kebabs, gyros, wraps, sides and shakes. <a href="/best-burgers-wembley/" style="color:#EA580C">See our full burger menu</a> | <a href="/best-kebabs-wembley/" style="color:#EA580C">Kebabs</a> | <a href="/best-gyros-wembley/" style="color:#EA580C">Gyros</a> | <a href="/takeaways-near-me/" style="color:#EA580C">Takeaway &amp; Delivery</a></p>
+        </section>
+        <section style="margin-top:32px">
+          <h2 style="font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:2em">Find Us in Wembley</h2>
+          <p><strong>Address:</strong> 7 Park Lane, Wembley, London HA9 7RW</p>
+          <p><strong>Phone:</strong> <a href="tel:+442089009988" style="color:#EA580C">+44 20 8900 9988</a></p>
+          <p><strong>Opening Hours:</strong> Monday&ndash;Sunday, 12:00&ndash;23:00 (Fri&ndash;Sat until 2:00 AM)</p>
+          <p>100% halal. Charcoal-grilled burgers, kebabs and gyros near Wembley Stadium. Order online for collection and delivery.</p>
+        </section>
+      </main>
+      <!-- End static SEO content -->
+    </div>
     <script type="module" src="/index.tsx"></script>
 </body>
 
