@@ -1,6 +1,23 @@
+import fs from 'fs';
 import path from 'path';
-import { defineConfig, loadEnv } from 'vite';
+import { defineConfig, loadEnv, type Plugin } from 'vite';
 import react from '@vitejs/plugin-react';
+
+// Replaces every HTML page (homepage + blog pages) with maintenance.html.
+// Runs before Vite scans the HTML for scripts, so the React app isn't bundled.
+function maintenancePage(): Plugin {
+  const html = fs.readFileSync(path.resolve(__dirname, 'maintenance.html'), 'utf-8');
+  return {
+    name: 'maintenance-page',
+    transformIndexHtml: { order: 'pre', handler: () => html },
+  };
+}
+
+// Maintenance is on by default. To restore the full site, set MAINTENANCE_MODE=false
+// (in .env.local or the host's build environment) or flip this default.
+function isMaintenanceMode(env: Record<string, string>): boolean {
+  return env.MAINTENANCE_MODE !== 'false';
+}
 
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
@@ -9,7 +26,7 @@ export default defineConfig(({ mode }) => {
         port: 3000,
         host: '0.0.0.0',
       },
-      plugins: [react()],
+      plugins: [react(), isMaintenanceMode(env) && maintenancePage()],
       define: {
         'process.env.API_KEY': JSON.stringify(env.GEMINI_API_KEY),
         'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY)
